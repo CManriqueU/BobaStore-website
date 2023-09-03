@@ -1,0 +1,32 @@
+h1{
+    font-size: 68px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.container{
+    display:flex;
+}
+
+.storyLeft{
+    flex: 1;
+    padding: 70px;
+}
+
+.textContainer{
+    width: 75%;
+}
+
+.storyImage{
+    flex: 1;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    /* Apply these styles on screens with a maximum width of 768px (typical phones) */
+    .container {
+      flex-direction: column; /* Stack divs vertically */
+    }
+}

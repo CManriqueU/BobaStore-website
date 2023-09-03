@@ -1,0 +1,28 @@
+nav{
+    height: 180px;
+    color: black;
+    font-size: 37px;
+}
+
+header{
+    background-color: black;
+}
+
+.logo-image{
+  height: 100%;
+  width:auto;
+  height:90px;
+}
+@media (max-width: 768px) {
+    nav {
+      height: 60px; /* Adjust to your desired mobile height */
+      padding: 10px; /* Adjust padding for mobile */
+      /* Add other mobile styles */
+    }
+
+    .logo-image{
+      height: 100%;
+      width:auto;
+      height:40px;
+    }
+  }

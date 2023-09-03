@@ -1,0 +1,30 @@
+
+.teacup {
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+.gallery-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-container {
+    justify-content: center;
+    display: flex;
+    width:70%;
+}
+
+.gallery-left{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    max-width: 50%;
+}
+.gallery-right {
+    display: flex;
+    flex-direction: column;
+    max-width:50%;
+}
